@@ -2,7 +2,7 @@ import json
 import requests
 
 yl = "hindeline"
-url = f"https://dummyjson.com/todos"
+url = "https://dummyjson.com/todos"
 response = requests.get(url)
 
 if response.status_code == 200:
